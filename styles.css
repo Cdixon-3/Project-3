@@ -2,70 +2,84 @@ body {
     font-family: Merriweather, sans-serif;
     background-color: #000;
     color: #333;
-  Font-size: 1.25em;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
     width: 150px;
-  height; 150px;
-  background-color: #fff;
-  border: ;
-  border-radius: 100%;
-  margin: 0 auto 1em auto;
-  
+    height: 150px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: 0 auto 1em auto;
 }
 
-.navigation{
-   position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #111;
-  padding-top: 20px;
-}
-.navigation a{
-  text-decoration: none;
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #111;
+    padding-top: 20px;
 }
 
-.site-info{
-  margin: 2em auto;
-  text-align: center;
-  line-height: 150px;
-}
-.logo:hover{
-  border: 5px solid #999;
+.navigation a {
+    text-decoration: none;
+    color: white;
 }
 
-.site-links{
-  margin: 0 1em;
+.site-info {
+    margin: 2em auto;
+    text-align: center;
 }
-.site-links a{
-  display: ;
-  margin: 6em;
+
+.logo:hover {
+    border: 5px solid #999;
 }
+
+.site-links {
+    margin: 2em 1em;
+    text-align: center;
+}
+
+.site-links a {
+    display: block;
+    margin: 1em 0;
+    color: #fff;
+}
+
 .site-links a:hover {
-  margin-right: 2.5em;
+    margin-right: 2.5em;
 }
-.social-links{
-  background-color: inherit;
-  width: inherit;
-  position: inherit;
-  bottom: 0;
+
+.social-links {
+    background-color: inherit;
+    width: inherit;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    text-align: center;
 }
-.social-links img{
-  background-color: #999;
-  width: 33%;
-    height: auto;
-  float: left;
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
 }
-/* Main content styling */
+
+.social-links svg {
+    width: 30px;
+    height: 30px;
+}
+
 .main {
-    padding: 1em;
+    padding: 2em;
     max-width: 800px;
-    margin-left: 300px auto;
+    margin: 0 auto;
+    margin-left: 220px; /* Adjust the margin to account for the side panel width */
     background: #fff;
-    overflow: auto;
+    color: #000;
 }
 
 h1, h2 {
@@ -83,7 +97,6 @@ img {
     margin-bottom: 20px;
 }
 
-/* Form styling */
 form {
     display: flex;
     flex-direction: column;
@@ -112,7 +125,6 @@ form button:hover {
     background-color: #555;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 10px 0;
