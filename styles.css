@@ -21,7 +21,7 @@ body {
 
 .site-name {
     font-size: 24px;
-    color: #1CCDCA;
+    color: red;
     text-align: center;
     margin-top: 10px;
 }
@@ -29,7 +29,7 @@ body {
 .header {
     background-color: #333;
     padding: 0;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -42,6 +42,7 @@ body {
     overflow: hidden;
     background-color: #333;
     text-align: center;
+    text-decoration: none;
 }
 
 .navbar li {
@@ -50,7 +51,7 @@ body {
 
 .navbar li a {
     display: inline-block;
-    color: white;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,11 +62,11 @@ body {
 }
 
 .navbar .active {
-    background-color: #4CAF50;
+    background-color: #f02c0e;
 }
 
 .main-container {
-    margin-top: 60px; /* Adjust to avoid content being hidden under the sticky navbar */
+    margin-top: 60px; 
     padding: 1em;
     line-height: 1.4em;
 }
@@ -73,7 +74,7 @@ body {
 .main {
     background: #fff;
     padding: 2em;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: black;
     max-width: 800px;
     margin: 0 auto;
 }
