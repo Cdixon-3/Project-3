@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chrishon Dixon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Hermes Trades & Goods</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            <div class="site-info">
+                <a href="#" class="logo"><img src="https://i.postimg.cc/mD1gF2gL/Hermes.png" alt="Logo"></a>
+                <a href="#" class="site-title">Hermes Trades & Goods</a>
+            </div>
+            <div class="site-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <section id="contact">
+                <h1>Contact Us</h1>
+                <p>Have questions or inquiries? Reach out to us using the form below:</p>
+
+                <form action="submit-contact-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hermes Trades & Goods</p>
+    </footer>
+</body>
+</html>
