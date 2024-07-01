@@ -9,18 +9,18 @@ body {
 
 .logo {
     width: auto;
-            height: auto;
-            border-radius: 50%;
-            background-color: reddish-orange;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: left;
-            position: ;
-            overflow: hidden;
-            color: White;
-            text-align: left;
-            margin: 10px;
+    height: auto;
+    border-radius: 50%;
+    background-color: reddish-orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+     position: ;
+    overflow: hidden;
+    color: White;
+     text-align: left;
+    margin: 10px;
 }
 
 .navigation {
