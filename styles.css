@@ -11,13 +11,13 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: reddish-orange; /* Adjust color as needed */
+    background-color: reddish-orange; 
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     color: white;
-    text-align: center; /* Center text inside the logo */
+    text-align: center;
     margin: 10px;
 }
 
@@ -25,12 +25,11 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px; /* Adjust width as needed */
-    height: 100%; /* Ensure it covers the entire height */
+    width: 200px; 
+    height: 100%;
     background-color: #111;
     padding-top: 20px;
-    z-index: 1000; /* Ensure a higher z-index to overlap other content */
-}
+    z-index: 1000; 
 
 .navigation a {
     text-decoration: none;
@@ -38,6 +37,9 @@ body {
     display: block;
     padding: 10px;
     text-align: center;
+}
+.navigation a.active {
+    background-color: #333;
 }
 
 .site-info {
@@ -102,7 +104,7 @@ body {
     padding: 2em;
     max-width: 800px;
     margin: 0 auto;
-    margin-left: 220px; /* Adjust the margin to account for the side panel width */
+    margin-left: 220px; 
     background: #fff;
     color: #000;
 }
